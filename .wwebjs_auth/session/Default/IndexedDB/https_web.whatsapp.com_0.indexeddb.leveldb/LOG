@@ -1,5 +1,22 @@
-2022/11/06-03:46:34.696 38ec Reusing MANIFEST E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/06-03:46:34.697 38ec Recovering log #16
-2022/11/06-03:46:34.746 38ec Reusing old log E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000016.log 
-2022/11/06-03:46:34.746 38ec Delete type=2 #15
-2022/11/06-03:46:34.746 38ec Delete type=2 #17
+2022/11/06-05:52:11.061 3704 Reusing MANIFEST E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/06-05:52:11.061 3704 Recovering log #51
+2022/11/06-05:52:11.219 3704 Reusing old log E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000051.log 
+2022/11/06-05:52:11.219 3704 Delete type=2 #49
+2022/11/06-05:52:11.219 3704 Delete type=2 #53
+2022/11/06-05:52:29.265 22c0 Level-0 table #59: started
+2022/11/06-05:52:29.358 22c0 Level-0 table #59: 1249650 bytes OK
+2022/11/06-05:52:29.393 22c0 Delete type=0 #51
+2022/11/06-05:52:29.467 22c0 Compacting 1@0 + 1@1 files
+2022/11/06-05:52:29.568 22c0 Generated table #60@0: 28306 keys, 690987 bytes
+2022/11/06-05:52:29.568 22c0 Compacted 1@0 + 1@1 files => 690987 bytes
+2022/11/06-05:52:29.602 22c0 compacted to: files[ 0 1 2 0 0 0 0 ]
+2022/11/06-05:52:29.602 22c0 Delete type=2 #54
+2022/11/06-05:52:29.602 22c0 Delete type=2 #59
+2022/11/06-05:52:29.611 22c0 Compacting 1@1 + 2@2 files
+2022/11/06-05:52:29.759 22c0 Generated table #61@1: 34485 keys, 2266956 bytes
+2022/11/06-05:52:29.861 22c0 Generated table #62@1: 43004 keys, 1575511 bytes
+2022/11/06-05:52:29.861 22c0 Compacted 1@1 + 2@2 files => 3842467 bytes
+2022/11/06-05:52:29.884 22c0 compacted to: files[ 0 0 2 0 0 0 0 ]
+2022/11/06-05:52:29.885 22c0 Delete type=2 #55
+2022/11/06-05:52:29.885 22c0 Delete type=2 #56
+2022/11/06-05:52:29.886 22c0 Delete type=2 #60

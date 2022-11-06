@@ -4,94 +4,80 @@
  */
 
 
-const qrcode = require('qrcode-terminal');
+module.exports = (app) => {
 
-const {
-  Client,
-  LocalAuth
-} = require('whatsapp-web.js');
 
-const client = new Client({
-  authStrategy: new LocalAuth()
-});
+  const qrcode = require('qrcode-terminal');
 
-client.on('qr', qr => {
-  qrcode.generate(qr, {
-    small: true
+  const {
+    Client,
+    LocalAuth,
+    MessageMedia
+  } = require('whatsapp-web.js');
+
+  const client = new Client({
+    authStrategy: new LocalAuth()
   });
-});
 
-client.on('ready', () => {
-  console.log('Client is ready!');
+  client.on('qr', qr => {
+    qrcode.generate(qr, {
+      small: true
+    });
+  });
+
+
 
   // Number where you want to send the message.
   const number = "+919163898569";
-
-  // Your message.
   const text = "Hey..👻👻";
-
-  // Getting chatId from the number.
-  // we have to delete "+" from the beginning and add "@c.us" at the end of the number.
   const chatId = number.substring(1) + "@c.us";
 
-  // Sending message.
-  client.sendMessage(chatId, text);
+
+  client.on('ready', () => {
+    console.log('Client is ready!');
+
+    // Sending message.
+    client.sendMessage(chatId, text);
+  });
 
 
 
 
-  module.exports = (app) => {
-    // Your code here
-    app.log.info("Yay, the app was loaded!");
+  // Your code here
+  app.log.info("Yay, the app was loaded!");
 
-    app.on("issues.opened", async (context) => {
-      const issueComment = context.issue({
-        body: "Thanks for opening this issue!",
-      });
-      return context.octokit.issues.createComment(issueComment);
+  app.on("issues.opened", async (context) => {
+    const issueComment = context.issue({
+      body: "Thanks for opening this issue! Our team will get back to you soon.",
+    });
+    return context.octokit.issues.createComment(issueComment);
+  });
+
+  app.onAny(async (context) => {
+    const event = context.name
+    const event_url = context.payload.issue.html_url
+    const action = context.payload.action
+
+    const username = context.payload.issue.user.login
+    const username_img = context.payload.issue.user.avatar_url
+
+    const repo_name = context.payload.repository.name
+    const repo_url = context.payload.repository.html_url
+
+    const media = await MessageMedia.fromUrl("https://i.imgur.com/6thqGRV.png");
+
+    client.sendMessage(chatId, media, {
+      caption: "*_Hi, I'm Snitch... 👻_*\n\nRepo: " + repo_name + "\nRepo Link: " + repo_url + " \n\n*Event:* " + event + "\n*Link:* " + event_url + "\n*Action:* " + action + "\n\n\n_by " + username + "_"
     });
 
+  });
 
+  client.initialize();
 
-    const event = ""
-    const event_url = ""
-    const action = ""
+};
 
-
-    app.onAny(async (context) => {
-      event = context.name
-      event_url = context.payload.issue.html_url
-      action = context.payload.action
-
-      const username = context.payload.issue.user.login
-      const username_img = context.payload.issue.user.avatar_url
-
-      const repo_name = context.payload.repository.name
-      const repo_url = context.payload.repository.html_ur
-
-
-    });
-
-    // client.sendMessage(chatId, event + "\n" + action + "\n" + event_url);
-
-
-    // For more information on building apps:
-    // https://probot.github.io/docs/
-
-    // To get your app running against GitHub, see:
-    // https://probot.github.io/docs/development/
-  };
-
-
-});
-
-client.on('message', message => {
-  if (message.body === '!ping') {
-    message.reply('pong');
-  }
-});
-
-
-
-
-client.initialize();
+// client.on('message', message => {
+//   if (message.body === '!ping') {
+//     message.reply('pong');
+//   }
+// });

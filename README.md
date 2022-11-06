@@ -31,3 +31,5 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 ## License
 
 [ISC](LICENSE) © 2022 Debjeet Das
+
+_Author: Debjeet_

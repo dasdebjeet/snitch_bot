@@ -1,49 +1,49 @@
-2022/11/06-21:45:50.380 958 Reusing MANIFEST E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/11/06-21:45:50.380 958 Recovering log #962
-2022/11/06-21:45:50.416 958 Reusing old log E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000962.log 
-2022/11/06-21:46:10.156 2848 Compacting 1@1 + 5@2 files
-2022/11/06-21:46:10.357 2848 Generated table #976@1: 84961 keys, 2229257 bytes
-2022/11/06-21:46:10.602 2848 Generated table #977@1: 112599 keys, 2266613 bytes
-2022/11/06-21:46:10.856 2848 Generated table #978@1: 113067 keys, 2268485 bytes
-2022/11/06-21:46:11.041 2848 Generated table #979@1: 113103 keys, 2267029 bytes
-2022/11/06-21:46:11.187 2848 Generated table #980@1: 33604 keys, 682656 bytes
-2022/11/06-21:46:11.187 2848 Compacted 1@1 + 5@2 files => 9714040 bytes
-2022/11/06-21:46:11.208 2848 compacted to: files[ 0 0 18 0 0 0 0 ]
-2022/11/06-21:46:11.209 2848 Delete type=2 #957
-2022/11/06-21:46:11.209 2848 Delete type=2 #958
-2022/11/06-21:46:11.209 2848 Delete type=2 #959
-2022/11/06-21:46:11.209 2848 Delete type=2 #960
-2022/11/06-21:46:11.209 2848 Delete type=2 #961
-2022/11/06-21:46:11.209 2848 Delete type=2 #965
-2022/11/06-21:46:49.696 c38 Level-0 table #982: started
-2022/11/06-21:46:49.832 c38 Level-0 table #982: 1253598 bytes OK
-2022/11/06-21:46:49.911 c38 Delete type=0 #962
-2022/11/06-21:46:50.570 3188 Compacting 1@0 + 0@1 files
-2022/11/06-21:46:50.681 3188 Generated table #983@0: 21446 keys, 466942 bytes
-2022/11/06-21:46:50.739 3188 Generated table #984@0: 7872 keys, 195351 bytes
-2022/11/06-21:46:50.739 3188 Compacted 1@0 + 0@1 files => 662293 bytes
-2022/11/06-21:46:50.763 3188 compacted to: files[ 0 2 18 0 0 0 0 ]
-2022/11/06-21:46:50.765 3188 Delete type=2 #982
-2022/11/06-21:47:04.744 3188 Compacting 1@1 + 9@2 files
-2022/11/06-21:47:04.964 3188 Generated table #985@1: 30870 keys, 2261442 bytes
-2022/11/06-21:47:05.160 3188 Generated table #986@1: 24025 keys, 2280276 bytes
-2022/11/06-21:47:05.354 3188 Generated table #987@1: 63228 keys, 2277093 bytes
-2022/11/06-21:47:05.483 3188 Generated table #988@1: 9221 keys, 2177281 bytes
-2022/11/06-21:47:05.591 3188 Generated table #989@1: 1752 keys, 2140815 bytes
-2022/11/06-21:47:05.699 3188 Generated table #990@1: 2020 keys, 2158934 bytes
-2022/11/06-21:47:05.798 3188 Generated table #991@1: 9509 keys, 2166061 bytes
-2022/11/06-21:47:05.919 3188 Generated table #992@1: 24997 keys, 2277164 bytes
-2022/11/06-21:47:06.026 3188 Generated table #993@1: 20500 keys, 2236892 bytes
-2022/11/06-21:47:06.064 3188 Generated table #994@1: 716 keys, 105689 bytes
-2022/11/06-21:47:06.064 3188 Compacted 1@1 + 9@2 files => 20081647 bytes
-2022/11/06-21:47:06.088 3188 compacted to: files[ 0 1 19 0 0 0 0 ]
-2022/11/06-21:47:06.089 3188 Delete type=2 #966
-2022/11/06-21:47:06.089 3188 Delete type=2 #967
-2022/11/06-21:47:06.089 3188 Delete type=2 #968
-2022/11/06-21:47:06.090 3188 Delete type=2 #969
-2022/11/06-21:47:06.090 3188 Delete type=2 #970
-2022/11/06-21:47:06.090 3188 Delete type=2 #971
-2022/11/06-21:47:06.090 3188 Delete type=2 #972
-2022/11/06-21:47:06.090 3188 Delete type=2 #973
-2022/11/06-21:47:06.090 3188 Delete type=2 #974
-2022/11/06-21:47:06.090 3188 Delete type=2 #983
+2022/11/07-00:50:20.055 4bcc Reusing MANIFEST E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/11/07-00:50:20.055 4bcc Recovering log #1059
+2022/11/07-00:50:20.222 4bcc Reusing old log E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001059.log 
+2022/11/07-00:50:42.193 4888 Level-0 table #1080: started
+2022/11/07-00:50:42.277 4888 Level-0 table #1080: 1193782 bytes OK
+2022/11/07-00:50:42.300 4888 Delete type=0 #1059
+2022/11/07-00:50:42.513 4a54 Compacting 1@0 + 0@1 files
+2022/11/07-00:50:42.638 4a54 Generated table #1081@0: 19155 keys, 416237 bytes
+2022/11/07-00:50:42.675 4a54 Generated table #1082@0: 8034 keys, 178736 bytes
+2022/11/07-00:50:42.675 4a54 Compacted 1@0 + 0@1 files => 594973 bytes
+2022/11/07-00:50:42.698 4a54 compacted to: files[ 0 2 23 0 0 0 0 ]
+2022/11/07-00:50:42.698 4a54 Delete type=2 #1080
+2022/11/07-00:50:44.526 4888 Compacting 1@1 + 9@2 files
+2022/11/07-00:50:44.646 4888 Generated table #1083@1: 29276 keys, 2266648 bytes
+2022/11/07-00:50:44.761 4888 Generated table #1084@1: 24128 keys, 2277441 bytes
+2022/11/07-00:50:44.887 4888 Generated table #1085@1: 62556 keys, 2266570 bytes
+2022/11/07-00:50:44.979 4888 Generated table #1086@1: 16852 keys, 2199438 bytes
+2022/11/07-00:50:45.060 4888 Generated table #1087@1: 2171 keys, 2152327 bytes
+2022/11/07-00:50:45.142 4888 Generated table #1088@1: 1863 keys, 2148142 bytes
+2022/11/07-00:50:45.223 4888 Generated table #1089@1: 2782 keys, 2154970 bytes
+2022/11/07-00:50:45.328 4888 Generated table #1090@1: 27400 keys, 2267404 bytes
+2022/11/07-00:50:45.431 4888 Generated table #1091@1: 23815 keys, 2263229 bytes
+2022/11/07-00:50:45.466 4888 Generated table #1092@1: 506 keys, 126429 bytes
+2022/11/07-00:50:45.466 4888 Compacted 1@1 + 9@2 files => 20122598 bytes
+2022/11/07-00:50:45.489 4888 compacted to: files[ 0 1 24 0 0 0 0 ]
+2022/11/07-00:50:45.490 4888 Delete type=2 #1063
+2022/11/07-00:50:45.490 4888 Delete type=2 #1064
+2022/11/07-00:50:45.490 4888 Delete type=2 #1065
+2022/11/07-00:50:45.490 4888 Delete type=2 #1066
+2022/11/07-00:50:45.490 4888 Delete type=2 #1067
+2022/11/07-00:50:45.490 4888 Delete type=2 #1068
+2022/11/07-00:50:45.490 4888 Delete type=2 #1069
+2022/11/07-00:50:45.490 4888 Delete type=2 #1070
+2022/11/07-00:50:45.490 4888 Delete type=2 #1071
+2022/11/07-00:50:45.490 4888 Delete type=2 #1081
+2022/11/07-00:50:47.242 1e9c Compacting 1@1 + 5@2 files
+2022/11/07-00:50:47.394 1e9c Generated table #1093@1: 60268 keys, 2194366 bytes
+2022/11/07-00:50:47.558 1e9c Generated table #1094@1: 112987 keys, 2266758 bytes
+2022/11/07-00:50:47.749 1e9c Generated table #1095@1: 112821 keys, 2266522 bytes
+2022/11/07-00:50:47.944 1e9c Generated table #1096@1: 113162 keys, 2267123 bytes
+2022/11/07-00:50:48.122 1e9c Generated table #1097@1: 112239 keys, 2252135 bytes
+2022/11/07-00:50:48.122 1e9c Compacted 1@1 + 5@2 files => 11246904 bytes
+2022/11/07-00:50:48.145 1e9c compacted to: files[ 0 0 24 0 0 0 0 ]
+2022/11/07-00:50:48.145 1e9c Delete type=2 #1073
+2022/11/07-00:50:48.145 1e9c Delete type=2 #1074
+2022/11/07-00:50:48.145 1e9c Delete type=2 #1075
+2022/11/07-00:50:48.146 1e9c Delete type=2 #1076
+2022/11/07-00:50:48.146 1e9c Delete type=2 #1077
+2022/11/07-00:50:48.146 1e9c Delete type=2 #1082

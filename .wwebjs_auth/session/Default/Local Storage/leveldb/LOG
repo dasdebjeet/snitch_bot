@@ -1,3 +1,6 @@
-2022/11/06-21:50:16.544 1de4 Reusing MANIFEST E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
-2022/11/06-21:50:16.544 1de4 Recovering log #6
-2022/11/06-21:50:16.545 1de4 Reusing old log E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\Local Storage\leveldb/000006.log 
+2022/11/07-00:52:04.560 cb0 Reusing MANIFEST E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\Local Storage\leveldb/MANIFEST-000001
+2022/11/07-00:52:04.561 cb0 Recovering log #6
+2022/11/07-00:52:04.561 cb0 Reusing old log E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\Local Storage\leveldb/000006.log 
+2022/11/07-01:56:28.035 138 Level-0 table #10: started
+2022/11/07-01:56:28.151 138 Level-0 table #10: 10277 bytes OK
+2022/11/07-01:56:28.199 138 Delete type=0 #6

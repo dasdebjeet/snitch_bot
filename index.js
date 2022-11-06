@@ -158,7 +158,7 @@ module.exports = (app) => {
     const media = await MessageMedia.fromUrl(snitch_Flogo);
     if (msg.includes('@snitch')) {
       client.sendMessage(message.from, media, {
-        caption: "Hey!, how its going?..☺️\n\nI hope you are having a great day. And lets make it more good by quoting something good for you.\n\n*'" + qoutes_dict[rand_ind].qoute + "'*\n_- " + qoutes_dict[rand_ind].name + "_"
+        caption: "Hey!, how its going?..☺️\n\nI hope you are having a great day. And lets make it more good by quoting something good for you.\n\n*'" + qoutes_dict[rand_ind].qoute + "'*_- " + qoutes_dict[rand_ind].name + "_"
       });
     }
   });

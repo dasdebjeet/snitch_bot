@@ -32,4 +32,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 [ISC](LICENSE) © 2022 Debjeet Das
 
-_Author: Debjeet Da_
+_Author: Debjeet D_

@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 2022/11/07-12:19:52.026 1538 Reusing MANIFEST E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\Platform Notifications/MANIFEST-000001
 2022/11/07-12:19:52.026 1538 Recovering log #3
 2022/11/07-12:19:52.026 1538 Reusing old log E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\Platform Notifications/000003.log 
+=======
+2022/11/07-00:50:15.574 4bcc Reusing MANIFEST E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\Platform Notifications/MANIFEST-000001
+2022/11/07-00:50:15.582 4bcc Recovering log #3
+2022/11/07-00:50:15.582 4bcc Reusing old log E:\nodejs\snitch_bot\.wwebjs_auth\session\Default\Platform Notifications/000003.log 
+>>>>>>> 8dcfb2d040ede954dcf1ba7d9fb7f35907fae0a8

@@ -36,4 +36,4 @@ For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ## License
 
-[ISC](LICENSE) © 2022 <a href="https://dasdebjeet.github.io">DebjeetDas</a>
+[ISC](LICENSE) © 2022 <a href="https://dasdebjeet.github.io">Debjeet Das</a>

@@ -46,7 +46,7 @@ module.exports = (app) => {
       // '4th year project '
       // 'HOD - 4th Yr project'
 
-      const myGrp = chats.find((chat) => chat.name === 'MOME')
+      const myGrp = chats.find((chat) => chat.name === 'Snitch Bot')
       const myGrpId = String(myGrp.id._serialized)
 
       console.log(myGrpId)
@@ -68,18 +68,17 @@ module.exports = (app) => {
       });
 
       app.onAny(async (context) => {
+        console.log("Event Captured: " + context.name)
+
         const event = context.name
         // const event_url = context.payload.issue.html_url
 
         const action = context.payload.action
-
-
         const repo_name = context.payload.repository.full_name
         const repo_url = context.payload.repository.html_url
 
         const username = context.payload.sender.login
         // const username_img = context.payload.issue.user.avatar_url
-
 
         const media = await MessageMedia.fromUrl(snitch_WLogo);
 

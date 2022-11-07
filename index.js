@@ -3,9 +3,11 @@
  * @param {import('probot').Probot} app
  */
 
-
 module.exports = (app) => {
   const qrcode = require('qrcode-terminal');
+
+  const number = process.env.my_number
+  const grp_name = process.env.group_name
 
   const {
     Client,
@@ -29,7 +31,7 @@ module.exports = (app) => {
 
 
   // Number where you want to send the message.
-  const number = "+919163898569";
+  // const number = "+919163898569";
   const text = "Hey! Snitch is on..👻👻";
   const mychatId = number.substring(1) + "@c.us";
 
@@ -46,7 +48,7 @@ module.exports = (app) => {
       // '4th year project '
       // 'HOD - 4th Yr project'
 
-      const myGrp = chats.find((chat) => chat.name === 'Snitch Bot')
+      const myGrp = chats.find((chat) => chat.name === grp_name)
       const myGrpId = String(myGrp.id._serialized)
 
       console.log(myGrpId)

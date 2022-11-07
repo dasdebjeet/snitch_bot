@@ -28,6 +28,12 @@ docker build -t snitch_bot .
 docker run -e APP_ID=<app-id> -e PRIVATE_KEY=<pem-value> snitch_bot
 ```
 
+## Demo
+
+<br>
+<img src="./snitch_demo.png">
+<br><br>
+
 ## Contributing
 
 If you have suggestions for how snitch_bot could be improved, or want to report a bug, open an issue! We'd love all and any contributions.

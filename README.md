@@ -4,7 +4,10 @@
 <img src="./app_banner.png">
 <br><br>
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that A Probot app and [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js/) which will send update about your Github repo in whatsapp. <br>So, I was working on our undergrad project on GitHub and our team have a whatsapp group where we discuss everything about our project and thats where I though why can't we have something that give us every updates of our project GitHub repo by notifying us in our whatsapp qroup.
+> A GitHub App built with [Probot](https://github.com/probot/probot) that A Probot app and [whatsapp-web.js](https://github.com/pedroslopez/whatsapp-web.js/) which will send updates about your GitHub repo in WhatsApp. 
+
+> So, I was working on our undergrad project on GitHub and our team has a WhatsApp group where we discuss everything about our project that's where I thought why can't we have something that gives us every update on our project GitHub repo by notifying us in our WhatsApp group.
+
 
 <br><br>
 

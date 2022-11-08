@@ -45,9 +45,6 @@ module.exports = (app) => {
 
     client.getChats().then((chats) => {
 
-      // '4th year project '
-      // 'HOD - 4th Yr project'
-
       const myGrp = chats.find((chat) => chat.name === grp_name)
       const myGrpId = String(myGrp.id._serialized)
 
